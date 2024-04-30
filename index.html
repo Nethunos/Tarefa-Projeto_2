@@ -5,32 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agenda de contatos</title>
     <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Dosis:wght@200..800&family=Titan+One&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <h1>Anjos da crise.</h1>
-        <h2>Solta aí o seu número pra salvar no corre! </h2>
-        <h4>É brincadeira. É só pra fins de educativos e de exercício.</h4>
+        <h2>Solta aí o número de quem tá tendo, pra salvar no corre! </h2>
+        <h4>É brincadeira. É só para fins educativos e de exercício.</h4>
     </header>
-    <form>
-        <input type="text" id="input-nome" placeholder="Nome.">
-        <input type="tel" id="input-tell" placeholder="Seu número.">
+    <form id="formulario">
+        <input type="text" id="input-nome" required placeholder="Nome.">
+        <input type="tel" id="input-tell" required placeholder="Seu número.">
         <button type="submit" id="botao-add">Adicionar +</button>
     </form>
     <table>
-        <div class="cabecalho"></div>
-        <thead>
-            <tr>
-                <td id="titulo-nome"><h2>Nome</h2></td>
-                <td id="titulo-telefone"><h2>Telefone</h2></td>
-            </tr>
-        </thead>
+        <div class="cabecalho">
+            <thead>
+                <tr>
+                    <td id="titulo-nome"><h2>Nome</h2></td>
+                    <td id="titulo-telefone"><h2>Telefone</h2></td>
+                </tr>
+            </thead>
+        </div>
         <tbody>
             <tr>
-                <td><h2>Jefin</h2></td>
-                <td><h2>81 96324-5356</h2></td>
+                
             </tr>
         </tbody>
     </table>
+    <script src="./main.js"></script>
 </body>
 </html>

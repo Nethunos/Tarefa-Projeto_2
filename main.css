@@ -5,34 +5,33 @@
 }
 
 body {
-    background-color: rgb(129, 243, 113);
+    background-color: rgb(222, 224, 94);
 }
 header {
     display: block;
-    color: darkgreen;
+    color: rgb(1, 66, 1);
     width: 100vw;
     align-items: center;
     margin-top: 50px;
 }
 
 header h1 {
-    width: 202px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 15px;
+    font-family: "Titan One", sans-serif;
+    padding: 2px 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 40px;
 }
 
 header h2 {
-    width: 430px;
-    margin-left: auto;
-    margin-right: auto;
+    font-family: "Comfortaa", sans-serif;
+    text-align: center;
     margin-bottom: 8px;
 }
 
 header h4 {
-    width: 384px;
-    margin-left: auto;
-    margin-right: auto;
+    font-family: "Comfortaa", sans-serif;
+    text-align: center;
 }
 
 form input {
@@ -56,13 +55,36 @@ form button {
 
 table {
     background-color: rgb(241, 228, 105);
-    display: block;
-    align-items: center;
     width: 700px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 25px auto;
+    font-family: "Comfortaa", sans-serif;
 }
 
-.cabecalho {
-    justify-content: space-between;
+#titulo-nome {
+    text-align: center;
+    font-family: "Titan One", sans-serif;
+    font-weight: 100px;
+    color: rgb(1, 66, 1);
+    font-size: 17px;
+}
+
+#titulo-telefone {
+    text-align: center;  
+    font-family: "Titan One", sans-serif;
+    font-weight: 100px;
+    color: rgb(1, 66, 1);
+    font-size: 17px;
+}
+
+tbody{
+    text-align: center;
+}
+.dado-nome {
+    text-align: center;
+    font-size: 14px;
+}
+
+.dado-telefone {
+    text-align: center;
+    font-size: 14px;
 }
